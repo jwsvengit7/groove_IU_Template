@@ -1,0 +1,164 @@
+header{
+    width:100%;
+    height:auto;
+    background-color: #0F0F0F;
+    background: rgba(112, 112, 112, 0.15);
+}
+aside{
+    width:16%;
+    height:auto;
+    background: rgba(112, 112, 112, 0.15);
+}
+
+.first-row{
+    width:100%;
+    height: 12vh;
+    border-bottom: 0.5px solid #252525;
+}
+.sidebars{
+    width: 100%;
+    height: 110vh;
+}
+.sidebars li{
+   margin:15px;
+   list-style: none;
+}
+.sidebars li span{
+    padding-top: 6px;
+    font-size: 14px;
+}
+.second-mg{
+   margin-bottom: 35px !important;
+}
+.bootom_down{
+    height: 50px;
+    border-bottom: 1px solid #414040;
+}
+.box{
+    width:50px;
+    height: 50px;
+    border-radius: 400px;
+    margin-left: 30px;
+}
+.boxImage{
+    width:100%;
+    height: 100%;
+    border-radius: 500px;
+}
+.arrow-side{
+    width: 15%;
+    height: 12vh;
+  
+}
+.main{
+    width: 84%;
+    height: 100vh;
+   
+}
+
+/* 
+Main */
+.section-one{
+    width:100%;
+    height: 200px;
+    background-image: url(../assets/images/bg.png);
+    background-size: cover;
+}
+.udux{
+    
+width:90px;
+height: 30px;
+padding: 30px;
+
+}
+.omay{
+    height: 90%;
+   margin-right: 60px;
+    display: flex;
+align-items: flex-end;
+}
+.row{
+    padding: 10px;
+    width:100%
+}
+.img-div{
+    width:14%;
+    height: auto;
+    border: 1px solid #414040;
+    margin: 7px;
+    padding: 10px;
+}
+.inside-div{
+    background: linear-gradient(89.79deg, #AD4C1D -19.39%, #F6B726 123.38%);
+    width:95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+}
+.inside-div img{
+    width:90%;
+    height: 130px;
+    position: relative;
+    margin-top: -15px;
+}
+.down-left{
+    background: linear-gradient(89.79deg, #AB491C -19.39%, #DDAE45 123.38%);
+    width:100%;
+    height: auto;
+    box-shadow: 0px 3px 2px 2px #ccc;
+    padding: 5px;
+}
+#hide{
+    display: none;
+}
+.mobile{
+    display:none
+}
+
+@media(max-width:1000px){
+    aside{
+        display: none;
+    }
+    #hide{
+        display: flex;
+    }
+    .arrow-side,.hide{
+        display:none
+    }
+    .main{
+        width: 100%;
+        height: auto;
+    }
+    .section-two, .section-three{
+        overflow: scroll;
+    }
+    .section-three{
+        margin-bottom: 100px;
+    }
+    .mobileTake{
+        width : 150%
+    }
+    .mobile{
+        width:100%;
+        height: 100px;
+        background-color: #0F0F0F;
+        position: fixed;
+        bottom: 0px;
+        z-index: 9;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+@media(max-width:750px) {
+    .mobileTake{
+        width : 200%
+    }
+}
+@media(max-width:600px) {
+    .mobileTake{
+        width : 300%
+    }
+}
