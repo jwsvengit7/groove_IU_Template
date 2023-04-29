@@ -8,7 +8,6 @@ const Headers=()=>{
                 <div className='box'>
                 <img src={jwsven} alt={jwsven} className='boxImage' />
                     </div>
-              
             </div>
             
             <div className="arrow-side display justify-content align-items">
